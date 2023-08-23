@@ -6,31 +6,8 @@ print("BOT BERHASIL")
 
 load_dotenv()
 
-#this is an example of a template chat.
-template = """
-Terima kasih telah menggunakan Discord Bot JKT48 Live Notifier Discord Bot.
-JKT48 Live Notifier adalah Intinya bot notif jeketi
-
-Full automated 🤖
-
-Forum: https://t.me/JKT48LiveForum
-Website: https://jkt48live.github.io/links/
-Telegram Channel: https://t.me/JKT48Live
-
-Untuk registrasi bot ini, bisa pakai link dibawah:
-https://discord.com/api/oauth2/authorize?client_id=1141780829933158420&permissions=51200&scope=bot
-
-setelah masuk bot ini, kirim ke dm bot ini dengan command : 
-!channel_id xxxxxxx
-
-ganti xxxxx diatas dengan ID Channel tujuan anda
-
-kalo ada sesuatu yg mw di report, bisa langsung pake command :
-!report
-
-Terima kasih!
-
-"""
+with open('template.txt') as file:
+    template = file.read()
 
 client = discord.Client()
 

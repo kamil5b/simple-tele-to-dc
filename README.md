@@ -28,3 +28,4 @@ the dcbot.py its completely optional. It used for registering channel id to the 
  - Run the dcbot.py and DM your bot with command : !channel_id xxxxx. replace the xxxxx with the channel id
 7. Run the telebot.py
  - First time using you will be asked your phone number and the OTP just for the session
+8. if you are using the dcbot.py, create template.txt to make a default text like "Thank you for using our bot"
