@@ -1,0 +1,6 @@
+*.log
+*.session
+.env
+*.jpg
+*.tlmsg
+channels.list
